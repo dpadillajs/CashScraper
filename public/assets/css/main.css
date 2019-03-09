@@ -1,0 +1,56 @@
+body {
+  background: slategrey;
+}
+
+.navbar {
+  background: rgb(18, 37, 67);
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 40px;
+  font-family: "Grand Hotel", cursive;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 0;
+  top: 0;
+}
+
+.navbar-nav {
+  z-index: 2;
+}
+
+.navbar-toggler {
+  z-index: 2;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 25px;
+  font-family: "Grand Hotel", cursive;
+}
+
+.nav-link:hover {
+  color: rgb(190, 190, 190) !important;
+}
+
+.jumbotron {
+  /* background: url(../vid/Finance.mp4); */
+  /* background-size: cover; */
+  height: 300px;
+}
+
+.videoTron {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  max-height: 300px;
+}
