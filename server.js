@@ -25,7 +25,9 @@ app.use(express.static("public"));
 
 // Establishing MongoDB Connection
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/CashScraper";
-mongoose.connect(MONGODB_URI);
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true
+});
 
 // Handlebars Configuration
 app.engine(
