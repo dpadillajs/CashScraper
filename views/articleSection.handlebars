@@ -1,0 +1,17 @@
+<div class="container bg-white">
+    <div class="row">
+        {{#each articles}}
+        <div class="col-12 article-column-styling pt-4 my-2">
+            <img src="{{image}}" class="img-fluid" alt="{{title}}">
+            <p class="catergory-styling">{{catergory}}</p>
+            <p class="title-styling">{{title}}</p>
+            <p class="summary-styling">{{summary}}</p>
+            <a href="{{link}}" target="_blank" class="mx-auto">
+                <p class="link-styling">Read More</p>
+            </a>
+            <i class="far fa-star" data-clicked="false"></i>
+            <hr>
+        </div>
+        {{/each}}
+    </div>
+</div>

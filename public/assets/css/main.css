@@ -1,25 +1,41 @@
 body {
-  background: slategrey;
+  background: lightgrey;
+}
+
+.logo-bg {
+  background: url(../img/Newspapers.jpg);
+  background-size: cover;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.22);
 }
 
 .navbar {
-  background: rgb(18, 37, 67);
+  background: forestgreen; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.8;
 }
 
-.navbar-toggler {
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
   outline: none !important;
+  border-color: white;
 }
 
-.navbar-brand {
-  color: white !important;
-  font-size: 40px;
+.logo-name {
+  font-size: 30px;
+  margin-right: 10px;
   font-family: "Grand Hotel", cursive;
-  position: absolute;
-  right: 0;
-  left: 0;
-  text-align: center;
-  z-index: 0;
-  top: 0;
 }
 
 .navbar-nav {
@@ -32,25 +48,24 @@ body {
   margin-bottom: 8px;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
 .nav-link {
   color: white !important;
-  font-size: 25px;
-  font-family: "Grand Hotel", cursive;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .nav-link:hover {
-  color: rgb(190, 190, 190) !important;
+  color: rgb(20, 85, 20) !important;
 }
 
-.jumbotron {
-  /* background: url(../vid/Finance.mp4); */
-  /* background-size: cover; */
-  height: 300px;
-}
-
-.videoTron {
-  width: 100vw;
-  height: auto;
-  overflow: hidden;
-  max-height: 300px;
+.bg-white {
+  margin: 30px auto 0;
+  width: 90%;
 }

@@ -1,0 +1,21 @@
+.noArticles-column-styling {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.noArticles-icon-styling {
+  position: initial;
+  font-size: 100px;
+  margin-bottom: 40px;
+  color: coral;
+}
+
+.noArticles-text-styling {
+  margin: 0;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
